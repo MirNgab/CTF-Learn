@@ -1,4 +1,4 @@
-# Encryption Master
+# Encryption Master - 90 Points
 > Alright. Serious talk. You need to work pretty hard for this one (unless you are an encryption god.) Well, good luck.
 
 _**Link :**_ https://mega.nz/file/iPgzXIiD#Pkza_S8YUxIXrZ7gdwMcIoufMzi_FjSio3Vx9GuL0ok
