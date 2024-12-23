@@ -1,8 +1,8 @@
-### So many 64s
+# So many 64s
 > Help! My friend stole my flashdrive that had the flag on it. When he gave it back the flag was changed! Can you help me decrypt it?
 
 _**Link :**_ https://mega.nz/#!OHhUyIqA!H9WxSdG1O7eVcCm0dffggNB0-dBemSpBAXiZ0OXJnLk
-# Solution
+### Solution
 We are given a base64 text that's so long to the point, it makes sense if you have to solve it using a script, so i made one
 ```
 import base64
