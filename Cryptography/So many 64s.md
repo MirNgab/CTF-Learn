@@ -11,8 +11,8 @@ f = open("flag.txt")
 data = f.read()
 
 while "_" not in data:
-    output = base64.b64decode(data).decode('utf-8')
-print(output)
+    data = base64.b64decode(data).decode('utf-8')
+print(data)
 ```
 Flag in CTF often has underscore in it, so i just brute force it until it found one since base64 doesn't use it whatsoever
 
