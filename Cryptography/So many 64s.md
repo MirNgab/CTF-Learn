@@ -8,11 +8,11 @@ We are given a base64 text that's so long to the point, it makes sense if you ha
 import base64
 
 f = open("flag.txt")
-b64data = f.read()
+data = f.read()
 
-while "_" not in b64data:
-    b64data = base64.b64decode(b64data).decode('utf-8')
-print(b64data)
+while "_" not in data:
+    output = base64.b64decode(data).decode('utf-8')
+print(output)
 ```
 Flag in CTF often has underscore in it, so i just brute force it until it found one since base64 doesn't use it whatsoever
 
