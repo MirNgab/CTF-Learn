@@ -3,7 +3,7 @@
 
 _**Link :**_ https://mega.nz/#!OHhUyIqA!H9WxSdG1O7eVcCm0dffggNB0-dBemSpBAXiZ0OXJnLk
 # Solution
-We are given a base64 text that's so long to the point, it makes sense if you have to solve this using a script, so i made one
+We are given a base64 text that's so long to the point, it makes sense if you have to solve it using a script, so i made one
 ```
 import base64
 
