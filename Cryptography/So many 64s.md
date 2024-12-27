@@ -15,5 +15,6 @@ while "_" not in data:
 print(data)
 ```
 Flag in CTF often has underscore in it, so i just brute force it until it found one since base64 doesn't use it whatsoever
-
-**ABCTF{pr3tty_b4s1c_r1ght?}**
+```
+ABCTF{pr3tty_b4s1c_r1ght?}
+```
