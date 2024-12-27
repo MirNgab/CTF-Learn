@@ -8,6 +8,6 @@ We started off with a long **base64** text, decrypt it using CyberChef will give
 Decrypt from Base64 -> Hex -> Binary -> Base64
 
 ![image](https://github.com/user-attachments/assets/e08fcf60-3127-470d-99b7-619fb36269c3)
-
-
-**CTF{I_AM_PROUD_OF_YOU}**
+```
+CTF{I_AM_PROUD_OF_YOU}
+```
