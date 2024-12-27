@@ -17,7 +17,7 @@ q = 1215882535595345734983200289345179903747212433353978114131291372539815022916
 The only difference they have is their last 2 digits number. Since the only hint that the challenge gave is the fact they have almost identical number, this makes me wonder if the way to get the flag is just your standard RSA decryption way? being :
 
 1. Factorize the n
-2. Use the factorization of n to get phi ((p-1)*(q-1))
+2. Use the factorization (two prime numbers) of n to get phi
 3. Inverse the phi with the public key
 4. c (ciphertext) raised to the power of inverse modulo n
 5. Turn the large integer into bytes
