@@ -42,4 +42,4 @@ print(long_to_bytes(pow(c, d, n)))
 └─$ python solve.py 
 b'flag{i_l0v3_tw1N_pr1m3s}'
 ```
-And yeah, not a single Twin RSA vulnerability involved. But RSA is RSA, so nice challenge :D
+And yeah, not a single Twin RSA vulnerability involved. But RSA is RSA so, nice challenge :D
