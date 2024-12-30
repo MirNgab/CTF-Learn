@@ -23,7 +23,7 @@ The only difference they have is their last 2 digits number. Since the only hint
 5. Turn the large integer into bytes
 
 Plus, they didn't used some small or large public key, it's just your average public key, so it's safe to assume that this isn't going to be a hassle, so let's break this RSA
-```
+```py
 from Crypto.Util.number import *
 
 n = 14783703403657671882600600446061886156235531325852194800287001788765221084107631153330658325830443132164971084137462046607458019775851952933254941568056899
@@ -37,7 +37,7 @@ phi = (n1-1)*(n2-1)
 d = inverse(e, phi)
 print(long_to_bytes(pow(c, d, n)))
 ```
-```
+```sh
 ┌──(myenv)(ibnuraffi㉿kali)-[~/Desktop/ctflearn/kripto]
 └─$ python solve.py 
 b'flag{i_l0v3_tw1N_pr1m3s}'
